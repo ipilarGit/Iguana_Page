@@ -1,0 +1,160 @@
+/* Estilos CSS Iguana Page*/
+
+body {
+     text-align: center;
+     /* Color de Letra para todos los textos: white */
+     color: #FFFFFF;
+     font-family: 'Raleway',
+          sans-serif;
+     background: #000000;
+     margin: 0;
+}
+
+body * {
+     margin: 0;
+     border: 0;
+     padding: 0;
+}
+
+h1 {
+     font-weight: 500;
+     font-size: 50px;
+     margin-top: 10px;
+     margin-bottom: 20px;
+}
+
+h2 {
+     font-weight: 300;
+     font-size: 24px;
+    padding:20px;
+}
+
+.parrafo-uno,
+.parrafo-dos {
+     font-weight: 300;
+     font-size: 15px;
+}
+
+.icono footer {
+     background: #1E1A13;
+     color: #ffffff;
+
+}
+
+.hero-section {
+     width: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+.black {
+     text-align: left;
+     color: #ffffff;
+     padding: 50px;
+     white-space: nowrap;
+}
+
+.centrado {
+     width: 75%;
+     margin: 0 auto;
+}
+
+.desc-texto,
+.desc-imagen,
+.imagen-iguana {
+     display: inline-block;
+}
+
+.desc-imagen {
+     width: 36%;
+     vertical-align: middle;
+     margin-left: 10%;
+
+}
+
+.desc-texto {
+     width: 54%;
+     vertical-align: middle;
+     white-space: normal;
+}
+
+.parrafo-uno,
+.parrafo-dos {
+     margin: 15px;
+}
+
+/*iconos*/
+
+#icons-section {
+     padding: 50px;
+     background: #1E1A13;
+}
+
+
+.icono {
+     display: inline-block;
+   /*  padding: 15px;  */
+}
+
+.icono {
+     width: 20%;
+     color: #ffffff;
+}
+
+.icono a {
+     width: 75%;
+     color: #ffffff;
+
+}
+
+
+/*imagenes*/
+
+#imagenes {
+     padding: 50px 0;
+}
+
+.foto-uno {
+     background-image: url('../img/iguana-2.jpg');
+}
+
+.foto-dos {
+     background-image: url('../img/iguana-3.jpg');
+}
+
+.foto-tres {
+     background-image: url('../img/iguana-4.jpg');
+}
+
+.imagen-iguana {
+     background-size: cover;
+     height: 200px;
+     width: 25%;
+}
+
+.imagen-iguana img {
+     width: 80%;
+     margin: 2px;
+}
+
+
+
+section,
+footer {
+     margin-top: 40px;
+}
+
+footer {
+
+     background: #1E1A13;
+     font-weight: 300;
+     font-size: 20px;
+     padding: 30px;
+
+}
+
+footer a {
+     text-decoration: none;
+     color: white;
+}
